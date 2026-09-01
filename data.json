@@ -1,0 +1,95 @@
+{
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Sai",
+      "password": "1234",
+      "department": "AI & Data Science",
+      "year": 2,
+      "semester": 3,
+      "className": "II-AIDS-A",
+      "cgpa": 8.6,
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "marks": 82,
+          "attendance": 91,
+          "assignments": 86,
+          "internal": 80,
+          "trend": 76
+        },
+        {
+          "name": "Python",
+          "marks": 94,
+          "attendance": 89,
+          "assignments": 94,
+          "internal": 90,
+          "trend": 90
+        },
+        {
+          "name": "Java",
+          "marks": 61,
+          "attendance": 73,
+          "assignments": 65,
+          "internal": 64,
+          "trend": 58
+        },
+        {
+          "name": "Data Science",
+          "marks": 88,
+          "attendance": 86,
+          "assignments": 89,
+          "internal": 84,
+          "trend": 86
+        },
+        {
+          "name": "Artificial Intelligence",
+          "marks": 91,
+          "attendance": 82,
+          "assignments": 91,
+          "internal": 88,
+          "trend": 88
+        }
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "FAC001",
+      "name": "Professor Kumar",
+      "password": "1234",
+      "department": "AI & Data Science",
+      "classes": [
+        "II-AIDS-A"
+      ],
+      "subjects": [
+        "Java",
+        "Data Structures"
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM001",
+      "name": "Academic Administrator",
+      "password": "1234"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "ASM001",
+      "title": "Java OOP Inheritance Practice",
+      "description": "Complete 5 inheritance programming problems and submit your source notes.",
+      "subject": "Java",
+      "className": "II-AIDS-A",
+      "teacherId": "FAC001",
+      "maxScore": 10,
+      "dueDate": "2026-08-20",
+      "priority": "High",
+      "createdDate": "2026-08-16"
+    }
+  ],
+  "submissions": [],
+  "attendance": [],
+  "notifications": []
+}
